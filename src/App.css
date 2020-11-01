@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #0B0C10; 
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+  font-size: 18px;
+}
+
+.container{
+  background-color: #1F2833;
+  border-color: #45A29E;
+  border-style: solid;
+  color: #C5C6C7;
+  padding: 25px;
+  margin:auto;
+  width: 800px;
+  margin-top: 5%;
+  border-radius: 25px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cryptoAmount{
+  width: 150x;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.cryptoCurrency{
+  width: 150x;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.submitButton{
+  padding: 15px 32px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+  background-color: #66FCF1;
+  color: #0B0C10;
+  cursor: pointer;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.submitButton:hover{
+  background-color: #45A29E;
+}
+
+.valueText{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.totalAmount{
+  font-weight: bold;
+  color: #66FCF1;
+}
