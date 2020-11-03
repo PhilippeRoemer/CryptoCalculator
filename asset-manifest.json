@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CryptoCalculator/static/css/main.25c66d56.chunk.css",
-    "main.js": "/CryptoCalculator/static/js/main.7738fc68.chunk.js",
-    "main.js.map": "/CryptoCalculator/static/js/main.7738fc68.chunk.js.map",
+    "main.js": "/CryptoCalculator/static/js/main.d72579b9.chunk.js",
+    "main.js.map": "/CryptoCalculator/static/js/main.d72579b9.chunk.js.map",
     "runtime-main.js": "/CryptoCalculator/static/js/runtime-main.ada2b5c7.js",
     "runtime-main.js.map": "/CryptoCalculator/static/js/runtime-main.ada2b5c7.js.map",
     "static/js/2.c15cb9ab.chunk.js": "/CryptoCalculator/static/js/2.c15cb9ab.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.ada2b5c7.js",
     "static/js/2.c15cb9ab.chunk.js",
     "static/css/main.25c66d56.chunk.css",
-    "static/js/main.7738fc68.chunk.js"
+    "static/js/main.d72579b9.chunk.js"
   ]
 }
