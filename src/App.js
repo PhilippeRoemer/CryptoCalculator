@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   const [coins, setCoins] = useState([]);
 
-  //Axios fetch data from API
+//Axios fetch data from API
   useEffect(() => {
     axios
       .get(
