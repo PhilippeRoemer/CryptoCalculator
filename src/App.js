@@ -81,7 +81,6 @@ function  CurrentValue(){
   <p id="currentValue" class="valueText"></p>
   <p id="athValue" class="valueText"></p>
   <p id="athValue2" class="valueText"></p>
-  
   <div id="currencyInfo"></div>
   
 </div>
