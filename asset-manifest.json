@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CryptoCalculator/static/css/main.25c66d56.chunk.css",
-    "main.js": "/CryptoCalculator/static/js/main.d72579b9.chunk.js",
-    "main.js.map": "/CryptoCalculator/static/js/main.d72579b9.chunk.js.map",
+    "main.css": "/CryptoCalculator/static/css/main.196d59dc.chunk.css",
+    "main.js": "/CryptoCalculator/static/js/main.91ada594.chunk.js",
+    "main.js.map": "/CryptoCalculator/static/js/main.91ada594.chunk.js.map",
     "runtime-main.js": "/CryptoCalculator/static/js/runtime-main.ada2b5c7.js",
     "runtime-main.js.map": "/CryptoCalculator/static/js/runtime-main.ada2b5c7.js.map",
     "static/js/2.c15cb9ab.chunk.js": "/CryptoCalculator/static/js/2.c15cb9ab.chunk.js",
     "static/js/2.c15cb9ab.chunk.js.map": "/CryptoCalculator/static/js/2.c15cb9ab.chunk.js.map",
     "index.html": "/CryptoCalculator/index.html",
-    "static/css/main.25c66d56.chunk.css.map": "/CryptoCalculator/static/css/main.25c66d56.chunk.css.map",
+    "static/css/main.196d59dc.chunk.css.map": "/CryptoCalculator/static/css/main.196d59dc.chunk.css.map",
     "static/js/2.c15cb9ab.chunk.js.LICENSE.txt": "/CryptoCalculator/static/js/2.c15cb9ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ada2b5c7.js",
     "static/js/2.c15cb9ab.chunk.js",
-    "static/css/main.25c66d56.chunk.css",
-    "static/js/main.d72579b9.chunk.js"
+    "static/css/main.196d59dc.chunk.css",
+    "static/js/main.91ada594.chunk.js"
   ]
 }
