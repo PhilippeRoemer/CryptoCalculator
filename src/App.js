@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import Logo from './CC_Logo.png';
 import './App.css';
+import Coin from './Coin';
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -45,7 +46,6 @@ function  CurrentValue(){
   document.getElementById("currentValue").innerHTML = "The current value of " + amount + " " + y[x].text + " is  <span class='highlight'>$" + user_value.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + "</span>";
   document.getElementById("athValue").innerHTML = "On " + n + ", the all-time-high (ATH) value for 1 " + y[x].text + " was <span class='highlight'>$" + ath_Value.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + "</span>";
   document.getElementById("athValue2").innerHTML = "The value of " + amount + " " + y[x].text + " during its ATH would've been worth <span class='highlight'>$" + ath_TotalValue.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + "</span>";
-  document.getElementById("currencyInfo").innerHTML = "<h3 class='currencyInfoTitle'>" + y[x].text +" Market Information</h3><img src='"+ coin_image + "' class='currencyLogo'><table class='cryptoTable'><tr><td><p>Current Price:</p></td><td class='highlight'>$" + crypto + "</td></tr><tr><td><p>Market Cap:</p></td><td class='highlight'>$" + market_cap.toFixed(0).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + "</td></tr><tr><td><p>All-Time-High (ATH):</p></td><td class='highlight'>$" + ath_Value.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + "</td></tr><tr><td><p>24H Price Change:</p></td><td class='highlight'>$" + price_change.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + " (" + price_change_percent.toFixed(2) +"%)</td></tr></table>";
 }
 
   return (
@@ -81,8 +81,33 @@ function  CurrentValue(){
   <p id="currentValue" class="valueText"></p>
   <p id="athValue" class="valueText"></p>
   <p id="athValue2" class="valueText"></p>
-  <div id="currencyInfo"></div>
   
+  <hr/>
+  <h1 class="market-title">Current Crypto Market</h1>
+
+ <table>
+  <tr>
+    <th></th>
+    <th>Coin</th>
+    <th>Current Price</th>
+    <th>24H Change</th>
+    <th>ATH</th>    
+    <th>Market Cap</th>
+  </tr>
+  {coins.map(coin => {
+        return (
+          <Coin
+            name={coin.name}
+            price={coin.current_price}
+            marketcap={coin.market_cap}
+            image={coin.image}
+            priceChange={coin.price_change_percentage_24h}
+            ath={coin.ath}
+          />
+        );
+      })}
+</table>
+
 </div>
   );
 };

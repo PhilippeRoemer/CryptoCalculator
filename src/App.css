@@ -41,7 +41,7 @@ body{
   background-color: #0B0C10; 
 }
 
-h1,h2,h3,h4,h5,h6,p,a,td{
+h1,h2,h3,h4,h5,h6,p,a,td,th{
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -49,8 +49,18 @@ p{
   font-size: 18px;
 }
 
+th{
+  font-size: 20px;
+  color: white;
+}
+
 td{
   text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .container{
@@ -119,11 +129,12 @@ clear: both;
 .valueText{
   margin-left: 50px;
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .highlight{
   font-weight: bold;
-  color: #66FCF1;
+  color: #ffffff;
 }
 
 .currencyInfoTitle{
@@ -141,4 +152,29 @@ clear: both;
 
 .cryptoTable{
   margin-left: 75px;
+}
+
+/*Coin Table*/
+.market-title{
+  text-align: center;
+  color: #66FCF1;
+}
+
+.coin-img {
+  height: 30px;
+  width: 30px;
+}
+
+tr:nth-child(even) {background: #45a29d1e}
+
+tr{
+  height: 25px;
+}
+
+.red {
+  color: #f00606;
+}
+
+.green {
+  color: #11d811;
 }
